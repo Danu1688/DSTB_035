@@ -1,4 +1,36 @@
 proxies:
+- name: DanuVmessNTLS-LIVE_Host
+  type: vmess
+  server: beacon.liveon.id
+  port: 80
+  uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: danu529.foryou-ssh.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: danu529.foryou-ssh.my.id
+- name: DanuVmessNTLS-LIVE_IP
+  type: vmess
+  server: 104.21.90.217
+  port: 80
+  uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: danu529.foryou-ssh.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: danu529.foryou-ssh.my.id
 - name: ZeinTanrai1_LiveDO_1
   type: trojan
   server: 104.21.8.121
