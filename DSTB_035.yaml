@@ -1,7 +1,20 @@
 proxies:
+- name: ZeinTanrai1_LiveDO_1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 14b55c1e-dcaa-4089-a629-af8b91eb040b
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
 - name: DanuVmessNTLS-LIVE_Host
   type: vmess
-  server: beacon.liveon.id
+  server: circles.asia
   port: 80
   uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
   alterId: 0
@@ -17,7 +30,7 @@ proxies:
       Host: danu529.foryou-ssh.my.id
 - name: DanuVmessNTLS-LIVE_IP
   type: vmess
-  server: 104.21.90.217
+  server: circles.asia
   port: 80
   uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
   alterId: 0
@@ -31,22 +44,9 @@ proxies:
     path: /vmess
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: ZeinTanrai1_LiveDO_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 14b55c1e-dcaa-4089-a629-af8b91eb040b
-  udp: true
-  sni: danu529.foryou-ssh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: danu529.foryou-ssh.my.id
 - name: Danu35_LiveNusa35a
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 8e5aa4f5-331f-41c7-869e-b758be486081
   udp: true
