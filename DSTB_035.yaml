@@ -1,4 +1,17 @@
 proxies:
+- name: Ipung4Zein_LiveDO_1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 135bd770-af01-40cf-ad58-04a951ae6087
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: ZeinTanrai1_LiveDO_1
   type: trojan
   server: circles.asia
