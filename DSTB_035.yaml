@@ -1,7 +1,7 @@
 proxies:
 - name: ZeinTanrai1_LiveDO_1
   type: trojan
-  server: circles.asia
+  server: beacon.liveon.id
   port: 443
   password: 7bb06b6f-81d8-4589-b804-8d84c1b74fe7
   udp: true
@@ -12,7 +12,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: Ipung4Zein_LiveDO_1
+- name: Ipung4Zein_LiveDO_2
   type: trojan
   server: circles.asia
   port: 443
@@ -25,9 +25,9 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: TrojanWsSvr-Live_1
+- name: TrojanWsSvr-Live_3
   type: trojan
-  server: circles.asia
+  server: beacon.liveon.id
   port: 443
   password: 9766b64f-2d18-464b-8be5-02231f0e0c44
   udp: true
