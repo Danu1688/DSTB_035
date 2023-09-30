@@ -12,9 +12,9 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: ZeinTanrai1_LiveDO_1
+- name: ZeinTanraiDo1_Live_IP3
   type: trojan
-  server: beacon.liveon.id
+  server: 172.67.75.37
   port: 443
   password: 7bb06b6f-81d8-4589-b804-8d84c1b74fe7
   udp: true
