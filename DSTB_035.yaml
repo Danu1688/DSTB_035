@@ -1,20 +1,7 @@
 proxies:
-- name: Ipung4ZeinDo2_Live_IP1
+- name: ZeinTanraiDo1A_Live_IP1
   type: trojan
   server: 104.17.224.203
-  port: 443
-  password: 135bd770-af01-40cf-ad58-04a951ae6087
-  udp: true
-  sni: sgdo2.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xraytrojanws
-    headers:
-      Host: sgdo2.myserver-prem.xyz
-- name: ZeinTanraiDo1_Live_IP3
-  type: trojan
-  server: 172.67.75.37
   port: 443
   password: 7bb06b6f-81d8-4589-b804-8d84c1b74fe7
   udp: true
@@ -25,6 +12,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
+- name: Ipung4ZeinDo1B_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 135bd770-af01-40cf-ad58-04a951ae6087
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: ZeinSvrNusa_LiveNusa_1
   type: trojan
   server: beacon.liveon.id
