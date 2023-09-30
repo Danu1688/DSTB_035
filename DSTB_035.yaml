@@ -1,17 +1,17 @@
 proxies:
-- name: ZeinSvrNusa_LiveNusa_1
+- name: Ipung4ZeinDo2_Live_IP1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
-  password: 7732bc4e-8af7-4a34-b486-e13c52f80348
+  password: 135bd770-af01-40cf-ad58-04a951ae6087
   udp: true
-  sni: vpna4mvbhv.scpotato.me
+  sni: sgdo2.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /xraytrojanws
     headers:
-      Host: vpna4mvbhv.scpotato.me
+      Host: sgdo2.myserver-prem.xyz
 - name: ZeinTanrai1_LiveDO_1
   type: trojan
   server: beacon.liveon.id
@@ -25,19 +25,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: Ipung4Zein_LiveDO_2
+- name: ZeinSvrNusa_LiveNusa_1
   type: trojan
-  server: circles.asia
+  server: beacon.liveon.id
   port: 443
-  password: 135bd770-af01-40cf-ad58-04a951ae6087
+  password: 7732bc4e-8af7-4a34-b486-e13c52f80348
   udp: true
-  sni: sgdo2.myserver-prem.xyz
+  sni: vpna4mvbhv.scpotato.me
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /xraytrojanws
+    path: /trojan
     headers:
-      Host: sgdo2.myserver-prem.xyz
+      Host: vpna4mvbhv.scpotato.me
 - name: TrojanWsSvr-Live_3
   type: trojan
   server: beacon.liveon.id
