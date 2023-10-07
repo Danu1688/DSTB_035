@@ -90,20 +90,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: ZeinSvrNusa_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 7732bc4e-8af7-4a34-b486-e13c52f80348
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
-- name: TrojanWsSvr-Live_3
+- name: TrojanWsDo1C-Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
